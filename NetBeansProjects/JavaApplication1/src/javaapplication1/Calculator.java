@@ -11,7 +11,6 @@ package javaapplication1;
  */
 public class Calculator {
     public Calculator(){
-        
     }
     public float minus(float a,float b){
         return a-b;
