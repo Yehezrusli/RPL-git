@@ -25,4 +25,7 @@ public class Calculator {
     public float division(float a,float b){
         return 0;
     }
+    public float min(float a,float b){
+        return Math.min(a, b);
+    }
 }
