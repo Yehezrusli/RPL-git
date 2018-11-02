@@ -14,10 +14,10 @@ public class Calculator {
         
     }
     public float minus(float a,float b){
-        return 0;
+        return a-b;
     }
     public float plus(float a,float b){
-        return 0;
+        return a+b;
     }
     public float multiply(float a,float b){
         return 0;
