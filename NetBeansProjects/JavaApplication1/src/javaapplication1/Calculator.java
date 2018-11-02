@@ -10,19 +10,32 @@ package javaapplication1;
  * @author i16020
  */
 public class Calculator {
-    public Calculator(){
-        
+
+    public Calculator() {
+
     }
-    public float minus(float a,float b){
+
+    public float minus(float a, float b) {
         return 0;
     }
-    public float plus(float a,float b){
+
+    public float plus(float a, float b) {
         return 0;
     }
-    public float multiply(float a,float b){
-        return 0;
+
+    public float multiply(float a, float b) {
+        return a * b;
     }
-    public float division(float a,float b){
-        return 0;
+
+    public float division(float a, float b) {
+        return a / b;
+    }
+
+    public float max(float a, float b) {
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
     }
 }
