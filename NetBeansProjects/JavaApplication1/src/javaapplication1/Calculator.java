@@ -20,9 +20,9 @@ public class Calculator {
         return 0;
     }
     public float multiply(float a,float b){
-        return 0;
+        return a * b;
     }
     public float division(float a,float b){
-        return 0;
+        return a/b;
     }
 }
